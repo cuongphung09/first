@@ -3,7 +3,7 @@ import {graphql,Link} from "gatsby"
 import {css} from "@emotion/core"
 import { rhythm } from "../utils/typography"
 import Layout from "../components/layout"
-
+import I from "../images/icon.png"
 export default ({data}) => {
     return(
         <Layout >
@@ -41,6 +41,7 @@ export default ({data}) => {
                         </Link>
                     </div>
                 ))}
+                
             </div>
         </Layout>
 )}
